@@ -1,0 +1,166 @@
+#home_button{
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+/* header */
+
+h1{
+  display: inline-block;
+  color: #c60097;
+  font-size: 32pt;
+  position: relative;
+  left: 35%;
+}
+
+h2{
+  display: inline-block;
+  color: #c60097;
+  position: relative;
+  left: 36%;
+}
+
+.PictureSlider{
+  display: none;
+  position: absolute;
+  width: 1000px;
+  top: 200px;
+  left: 450px;
+}
+
+#picture_slider{
+  display: inline-block
+}
+
+#picture_slider input{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #c60097;
+  position: relative;
+  top: 300px;
+  width: 30px;
+  height: 100px;
+}
+
+#picture_slider input:hover{
+  animation: picture_slider_buttons forwards 0.5s;
+}
+
+@keyframes picture_slider_buttons {
+  to{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+#left_slider{
+  left: 100px;
+}
+
+#right_slider{
+  left: 990px;
+}
+
+
+/* navigation */
+
+#navigation{
+  display: inline-block;
+  font-size: 32pt;
+  position: relative;
+  left: 1600px;
+}
+
+#navigation li{
+  margin-bottom: 10px;
+}
+
+#navigation li a:hover{
+  animation-name: navigation_list_item;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes navigation_list_item {
+  to{
+    color: white;
+  }
+}
+
+/* Categories */
+
+aside{
+  color: #c60097;
+  position: fixed;
+  top: 200px;
+}
+
+aside h3{
+  position: relative;
+  left: 30px;
+}
+
+aside li a{
+  color: #c60097;
+}
+
+aside li a:hover{
+  animation-name: aside_li;
+  animation-fill-mode: forwards;
+  animation-duration: 0.2s;
+}
+
+@keyframes aside_li {
+  to{
+    color: white;
+  }
+}
+
+#sidebar_button{
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #c60097;
+  position: fixed;
+  left: 170px;
+  top: 370px;
+  width: 30px;
+  height: 30px;
+}
+
+#sidebar_button:hover{
+  animation-name: sidebar_button;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes sidebar_button{
+  to{
+    background-color: rgba(198, 0, 151, 0.5);
+    color: black;
+  }
+}
+
+/* footer */
+
+footer{
+  color: black;
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */

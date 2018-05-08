@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Book Store</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+
+    <a href="index.html"><img id="home_button" src="book_logo.png" alt="Book" title="Return to homepage"></a>
+
+    <header>
+      <h1>Shadowglen Book Store</h1><br>
+      <h2>If it's not here it probably doesn't exist</h2>
+
+      <div id="picture_slider">
+        <img class="PictureSlider" src="pictures/shadowglen01.jpg" alt="Shadowglen01" />
+        <img class="PictureSlider" src="pictures/shadowglen02.png" alt="Shadowglen02" />
+        <img class="PictureSlider" src="pictures/shadowglen03.jpg" alt="Shadowglen03" />
+
+        <input id="left_slider" type="button" value="<" onclick="slide(-1)" />
+        <input id="right_slider" type="button" value=">" onclick="slide(1)" />
+      </div>
+
+    </header>
+
+    <ul id="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="information.html">Information</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <aside>
+      <h3>Categories</h3>
+      <ul>
+        <li><a class="Category" href="">Comedy</a></li>
+        <li><a class="Category" href="">Crime</a></li>
+        <li><a class="Category" href="">Drama</a></li>
+        <li><a class="Category" href="">Fable</a></li>
+        <li><a class="Category" href="">Fairy Tale</a></li>
+        <li><a class="Category" href="">Fantasy</a></li>
+        <li><a class="Category" href="">Historical Fiction</a></li>
+        <li><a class="Category" href="">Horror</a></li>
+        <li><a class="Category" href="">Humor</a></li>
+        <li><a class="Category" href="">Magical Realism</a></li>
+        <li><a class="Category" href="">Mystery</a></li>
+        <li><a class="Category" href="">Mythology</a></li>
+        <li><a class="Category" href="">Romance</a></li>
+        <li><a class="Category" href="">Science Fiction</a></li>
+        <li><a class="Category" href="">Western</a></li>
+      </ul>
+    </aside>
+
+    <input id="sidebar_button" type="button" value="<" onclick="showHideSidebar()" />
+
+    <footer>
+      <p>Copyright 2018 ©</p>
+    </footer>
+
+    <!-- scripts -->
+
+    <script src="js/sidebarButton.js"></script>
+    <script src="js/pictureSlider.js"></script>
+    <script src="js/setLinkToBooks.js"></script>
+    <script src="js/categories.js"></script>
+
+  </body>
+</html>

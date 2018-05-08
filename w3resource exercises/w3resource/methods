@@ -1,0 +1,18 @@
+//string
+
+substring(n, m)
+split('')							//splits string to array by given value
+startsWith("")				//checks if string starts with given text
+endsWith("")					//checks if string ends with given text
+
+
+
+//window methods
+
+window.
+
+print()
+document()
+alert()
+prompt()
++prompt()							//takes a number

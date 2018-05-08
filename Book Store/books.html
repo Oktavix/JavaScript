@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Books</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/books.css">
+  </head>
+
+  <body>
+
+    <a href="index.html"><img id="home_button" src="book_logo.png" alt="Book" title="Return to homepage"></a>
+
+    <h1>Pick a category and search for your next book</h1>
+
+    <form>
+      <select id="category_select">
+         <option value="comedy">Comedy</option>
+         <option value="crime">Crime</option>
+         <option value="drama">Drama</option>
+         <option value="fable">Fable</option>
+         <option value="fairy_tale">Fairy Tale</option>
+         <option value="fantasy">Fantasy</option>
+         <option value="historical_fiction">Historical Fiction</option>
+         <option value="horror">Horror</option>
+         <option value="humor">Humor</option>
+         <option value="magical_realism">Magical Realism</option>
+         <option value="mystery">Mystery</option>
+         <option value="mythology">Mythology</option>
+         <option value="romance">Romance</option>
+         <option value="science_fiction">Science Fiction</option>
+         <option value="western">Western</option>
+      </select>
+
+      <input id="search" type="button" value="Search" onclick="displayBooks(category_select.value)">
+
+    </form>
+
+    <script src="js/books.js"></script>
+
+  </body>
+</html>

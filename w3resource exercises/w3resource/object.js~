@@ -1,0 +1,18 @@
+function Person(name, age){
+	this.name = name;
+	this.age = age;
+}
+
+var person1 = new Person("Name1", 20);
+
+function ex01(person){
+	var keys = Object.keys(person);
+	
+	for(var i = 0; i < keys.length; i++){
+		document.write(person.(property.toString);
+	}	
+}
+
+ex01(person1);
+
+

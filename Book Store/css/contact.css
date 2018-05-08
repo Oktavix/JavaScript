@@ -1,0 +1,20 @@
+header{
+  display: inline-block;
+  font-size: 32pt;
+  font-style: italic;
+  color: #8e006d;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+header + img{
+  position: absolute;
+  top: 100px;
+  left: 800px;
+  width: 1000px;
+}
+
+header + p{
+  font-size: 32pt;
+}

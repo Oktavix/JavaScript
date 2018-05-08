@@ -1,0 +1,3 @@
+function f01(){
+	document.getElementsByTagName("body").firstChild.style.background = "rgb(200, 200, 200)";
+}

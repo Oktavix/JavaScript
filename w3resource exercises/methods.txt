@@ -1,0 +1,25 @@
+//array
+var array1 = new Array()
+var array2 = new Array(10)
+var array3 = new Array{x1, x2, x3...};
+
+array1.concat(array2)			- adds the second array to the first
+array.reverse()				- reverses the array
+array.push(x1, x2...)			- adds element or elements to end of array
+array.pop()				- removes the last element
+array.sort()				- sorts the array
+var string = array.join()		- converts array to string
+
+//Date
+var x = new Date();			- creates a new date object
+x.getFullYear()				- get four digit year
+x.getMonth()				- gets current month
+x.getDate()				- get current day in the month as a number
+x.getDay()				- get current weekday as a number
+x.getHours()				- gets current hours
+x.getMinutes()				- gets current minutes
+x.getSeconds()				- get current seconds
+
+//string
+s.length				
+s.substring(pos1, pos2)		

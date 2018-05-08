@@ -1,0 +1,47 @@
+h1{
+  font-size: 32pt;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+}
+
+form{
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+form select, input{
+  font-size: 20pt;
+}
+
+#search{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #c60097;
+}
+
+#search:hover{
+  animation-name: search_animation;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes search_animation {
+  to{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+div:hover{
+  animation-name: preview_animation;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes preview_animation {
+  to{
+    background-color: white;
+    color: black;
+  }
+}
